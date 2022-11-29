@@ -8,6 +8,7 @@
 </head>
 <body>
 <div id="speechContainer">
+    <h3> By Kevin Aldana </h3> 
     <h1>CARGAR NUEVO ARCHIVO</h1>
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file"/>
@@ -17,7 +18,7 @@
 
     {% if transcript != "" %}
         <div id="speechTranscriptContainer">
-            <h1>Transcript</h1>
+            <h1>Transcripcion</h1>
             <p id="speechText">{{ transcript }}</p>
         </div>
     {% endif %}
